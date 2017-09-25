@@ -11,8 +11,8 @@ public class Main {
 		printArray(a);		
 		bubbleSort(b);
 		printArray(b);		
-		//quickSort(0, c.length - 1, c);
-		//printArray(c);		
+		quickSort(0, c.length - 1, c);
+		printArray(c);		
 	}
 	
 	public static void selectionSort(int[] a) {
