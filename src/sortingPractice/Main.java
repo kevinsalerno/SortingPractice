@@ -11,6 +11,8 @@ public class Main {
 		printArray(a);		
 		bubbleSort(b);
 		printArray(b);		
+		
+		System.out.println("** QUICK SORT **");
 		quickSort(0, c.length - 1, c);		
 	}
 	
@@ -90,7 +92,7 @@ public class Main {
 		   
 		   //iterate starting at the lowest index, stop 
 		   //at the highest index
-		   for (int j = low; j < high - 1; j++){
+		   for (int j = low; j <= high - 1; j++){
 			   // if the current index is less than the pivot
 		       if (a[j] <= pivot){
 		    	   //move our first pointer over one
@@ -118,6 +120,6 @@ public class Main {
 		for(int i = 0; i < a.length; i++) {
 			System.out.print(a[i] + " ");
 		}
-		System.out.println(" ]");
+		System.out.println("]");
 	}
 }
